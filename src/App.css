@@ -1,5 +1,14 @@
 .App {
+  height: 100vh;
   text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.App div {
+  margin-top: 20px;
 }
 
 .App-logo {
